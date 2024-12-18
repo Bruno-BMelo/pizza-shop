@@ -18,7 +18,7 @@ const orderStatusMap: Record<OrderStatus, string> = {
 }
 export function OrderStatus({ status }: OrderStatusPros) {
   return (
-    <div className="felx items-center gap-2">
+    <div className="flex items-center gap-2">
       {status === 'pending' && (
         <span className="h-2 w-2 rounded-full bg-slate-400" />
       )}
