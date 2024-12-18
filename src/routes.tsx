@@ -1,4 +1,5 @@
-import { createBrowserRouter } from 'react-router'
+// eslint-disable-next-line simple-import-sort/imports
+import { createBrowserRouter } from 'react-router-dom'
 
 import { NotFound } from './pages/404'
 import { AppLayout } from './pages/_layouts/appLayout'
